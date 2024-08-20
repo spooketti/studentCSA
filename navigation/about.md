@@ -4,4 +4,5 @@ title: About Us
 permalink: /about/
 ---
 
-Creators of Alien World
+Creator of Student 2025 
+
