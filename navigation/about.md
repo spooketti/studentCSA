@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About Us
+title: About
 permalink: /about/
 ---
 
-Creator of Student 2025 
-
+Creator of Student 2025
