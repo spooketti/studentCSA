@@ -1,0 +1,33 @@
+#paralaxWrapper
+{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:-webkit-fill-available;
+}
+
+#paralaxWrapper img
+{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#paralaxName
+{
+    position: absolute;
+    right: 0;
+    top: 53px;
+    font-size: 71px;
+    z-index: 1;
+}
+#paralaxSubtitle
+{
+    position: absolute;
+    right: 5px;
+    top: 137px;
+    font-size: 12px;
+    z-index: 1;
+}

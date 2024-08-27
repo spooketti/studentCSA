@@ -1,0 +1,62 @@
+#MainNavbar
+{
+    width:100%;
+    height:64px;
+    background-color: #353543;
+    position:fixed;
+    left:0;
+    top:0;
+    display:flex;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 5;
+}
+
+body
+{
+    padding-top: 64px;
+    background-color: #5f6074;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#NavIcon
+{
+    height:50%;
+    border-radius: 50%;
+}
+
+#NavHomeLink
+{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color:white;
+    padding-left:6px;
+}
+
+#JonathanNav
+{
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%, #e4e4e4 30%, #e0e0e0 70%, rgb(255, 255, 255) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 20s ease-in-out infinite;
+}
+
+#LiuNav
+{
+    background: linear-gradient(to right, #ffbc18 20%, #fdb90e 30%, #f2b10c 70%, #ffbc18 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 20s ease-in-out infinite;
+    padding-right: 80px;
+}
+
+.navLink
+{
+    padding-left: 50px;
+    text-decoration: none;
+    color:white;
+}
