@@ -1,0 +1,18 @@
+table th
+{
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+table td {
+    background-color: #121212;
+    border-color: #333;
+    color: rgba(255, 255, 255, 0.69);
+    text-decoration: none;
+}
+
+table td a{
+    color: rgba(255, 255, 255, 0.69);
+    text-decoration: none;
+}
