@@ -23,6 +23,24 @@ body
 {
     height:50%;
     border-radius: 50%;
+    transition: all .5s;
+}
+
+#HomeWrapper
+{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#HomeWrapper:hover #NavIcon
+{
+    box-shadow:
+    0 0 6px 3px #fff, 
+    0 0 10px 6px rgb(142, 197, 253), 
+    0 0 14px 9px rgb(226, 174, 233); 
+    transform: rotate(720deg);
 }
 
 #NavHomeLink
@@ -59,4 +77,10 @@ body
     padding-left: 50px;
     text-decoration: none;
     color:white;
+}
+
+#navLinkWrapper
+{
+    right:24px;
+    position:absolute;
 }
