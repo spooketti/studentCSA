@@ -17,7 +17,10 @@ hide: true
 <h1>My Passions</h1>
 
 <h3>Music</h3>
-<p>I love playing guitar! I play mainly electric and acoustic guitar in my free time, all self-taught and try to write music in my spare time. Here are some recordings of two of my favorite pieces on guitar, ゆらゆら by YeYe, and 青葉市子 by Ichiko Aoba.</p>
+<p>I love playing guitar! I play mainly electric and acoustic guitar in my free time, all self-taught and try to write music in my spare time. Here's a short recording of one of my favorite pieces on guitar, ゆらゆら by YeYe</p>
+<video controls>
+<source src="assets/video/yura.mp4" type="video/mp4"/>
+</video>
 
 <p>I am currently writing a song, so stay tuned for that.
 I also started off in life playing piano, but never went further than sixth grade as I decided to focus on computer science instead!
