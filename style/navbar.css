@@ -84,3 +84,21 @@ body
     right:24px;
     position:absolute;
 }
+
+.copyCodeButton
+{
+    background-color: transparent;
+    color:rgb(196, 196, 196);
+    border:none;
+    cursor: pointer;
+    user-select: none;
+    transition: all .25s;
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.copyCodeButton:hover
+{
+    filter:brightness(200%);
+}

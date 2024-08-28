@@ -1,3 +1,30 @@
 <link rel="stylesheet" href="{{ '/style/init.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="stylesheet" href="{{ '/style/navbar.css?v=' | append: site.github.build_revision | relative_url }}">
 <link rel="stylesheet" href="{{ '/style/toc.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const cblocks = document.querySelectorAll('.hljs');
+    cblocks.forEach(codeblock => {
+      console.log("fu")
+    let btn = document.createElement("button")
+    let span = document.createElement("span")
+    btn.classList.add("copyCodeButton")
+    span.classList.add("material-symbols-outlined")
+    span.innerText = "content_copy"
+    codeblock.insertBefore(document.createElement("br"),codeblock.firstChild);
+    codeblock.insertBefore(btn,codeblock.firstChild);
+    btn.appendChild(span)
+    btn.onclick = function(){
+        span.innerText = ""
+        navigator.clipboard.writeText(codeblock.innerText)
+        span.innerText = "check"
+        window.setTimeout(function(){span.innerText = "content_copy"},1000)
+    }
+    });
+    });
+</script>
+<link rel
