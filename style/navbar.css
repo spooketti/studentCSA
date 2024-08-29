@@ -102,3 +102,13 @@ body
 {
     filter:brightness(200%);
 }
+
+#redMotButton
+{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "Noto Sans JP", sans-serif;
+    cursor: pointer;
+}
