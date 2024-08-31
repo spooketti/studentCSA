@@ -53,7 +53,7 @@ body
 
 #JonathanNav
 {
-    background: linear-gradient(to right, rgb(255, 255, 255) 20%, #e4e4e4 30%, #e0e0e0 70%, rgb(255, 255, 255) 80%);
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%, #adadad 30%, #a7a7a7 70%, rgb(255, 255, 255) 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@ body
 
 #LiuNav
 {
-    background: linear-gradient(to right, #ffbc18 20%, #fdb90e 30%, #f2b10c 70%, #ffbc18 80%);
+    background: linear-gradient(to right, #ffbc18 20%, #fabe28 30%, #fcd678 70%, #ffbc18 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
