@@ -2,3 +2,14 @@
 {
     width:100%;
 }
+
+h1
+{
+    background: linear-gradient(to right, #ffbc18 20%, #fabe28 30%, #fcd678 70%, #ffbc18 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 20s ease-in-out infinite;
+    padding-right: 80px;
+}
