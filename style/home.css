@@ -32,3 +32,19 @@
     font-size: 12px;
     z-index: 1;
 }
+
+.linuxGreen
+{
+    color:#87df34;
+}
+
+.linuxBlue
+{
+    color:#6d91ba;
+}
+
+#linuxTerminal
+{
+    background-color: #2d0922;
+    width:fit-content;
+}
