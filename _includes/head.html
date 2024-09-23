@@ -10,7 +10,9 @@
   <meta content="https://spooketti.github.io/studentCSA" property="og:url" />
   <meta content="https://raw.githubusercontent.com/spooketti/studentCSA/main/images/me.jpg" property="og:image" />
   <meta content="#AA00FF" data-react-helmet="true" name="theme-color" />
-<title>Jonathan Liu's CSA Portfolio</title>
+  {%- if page.title -%}
+  <title>{{page.title}}</title>
+  {%- endif -%}
 </head>
 <link rel="icon" href="{{site.baseurl}}/images/me.jpg"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
