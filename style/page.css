@@ -13,3 +13,33 @@ h1
     animation: textShine 20s ease-in-out infinite;
     padding-right: 80px;
 }
+
+a
+{
+    background: linear-gradient(to right, #35bdce 20%, #27d5ec 30%, #0998ab 70%, #35bdce 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 20s ease-in-out infinite;
+}
+
+a::before
+{
+    content:"🔗";
+}
+/*
+a:visited
+{
+    background: linear-gradient(to right, #8f35ce 20%, #af66e3 30%, #61397e 70%, #8024c2 80%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-size: 200% auto !important;
+    animation: textShine 20s ease-in-out infinite !important;
+}
+*/
+table td a::before
+{
+    content:"";
+}

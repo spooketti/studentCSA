@@ -53,6 +53,11 @@ body
     padding-left:6px;
 }
 
+#NavHomeLink::before
+{
+    content: "" !important;
+}
+
 #JonathanNav
 {
     background: linear-gradient(to right, rgb(255, 255, 255) 20%, #adadad 30%, #a7a7a7 70%, rgb(255, 255, 255) 80%);
@@ -78,7 +83,13 @@ body
 {
     padding-left: 50px;
     text-decoration: none;
-    color:white;
+    -webkit-text-fill-color: white !important;
+    background: none !important;
+}
+
+.navLink::before
+{
+    content:"" !important;
 }
 
 #navLinkWrapper
@@ -113,4 +124,24 @@ body
     color: white;
     font-family: "Noto Sans JP", sans-serif;
     cursor: pointer;
+}
+
+.unitHold a::before
+{
+    content:"" !important;
+}
+
+.unitHold a
+{
+    text-decoration: none  !important;
+    color: #fabe28 !important;
+    border-left: #fabe28 6px double;
+    border-right: #fabe28 6px double;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    -webkit-text-fill-color: #fabe28 !important;
+    background: none !important;
 }
