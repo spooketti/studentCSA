@@ -13,7 +13,7 @@ comments: True
 | Pull Request (Integration) | 2             |         2  |    ![image](https://github.com/user-attachments/assets/16b5d002-70d4-410e-ac04-dd2c0e651cc7)      |
 | Relevancy Checklist (Peer) | 2             |       2*(77.5/90)=1.72    |          https://tarunja1ks.github.io/CSATarunStudent/csa/unit6-p1/unit6-3    |
 | Lesson (Group)             | 1             |     .92      |  ![image](https://github.com/user-attachments/assets/5d0bc1cd-4343-43d1-b5b2-64a0a6dc64fe) |
-| Homework, Popcorn Hacks    | 1 x 8         |      (.93*8)=7.44   |         (.95+.95+.92+.9+.93)/5 (Period 3 has not graded either of mine yet) |
+| Homework, Popcorn Hacks    | 1 x 8         |      (.93*8)=7.44   |         (.95+.95+.92+.9+.93+.92+.95)/7  (I didn't give a grade for my own homework)|
 | Individual Contribution    | 1             |    .88       |  ![image](https://github.com/user-attachments/assets/01ffb85c-a0ec-41c6-9811-8cd24b2bda77) |
 | Personal Notebooks / Blogs | 1             |     .88      |       https://spooketti.github.io/studentCSA//2024/10/09/Sprint2_Recap.html  |
 | Total                      | 12            |    (13.84/15)*12=    11.072    |         Math (scaled to the 12 point scale as it doesn't add to 15)     |
