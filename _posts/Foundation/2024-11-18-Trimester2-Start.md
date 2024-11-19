@@ -10,6 +10,13 @@ comments: True
 
 # Start of Trimester 2 AP CSA
 
+<style>
+    td img
+    {
+        width:75%;
+    }
+</style>
+
 ## My Project
 Our class last trimester split up into various themes for projects, one side related to fun and games, the other related to making useful tools for our teacher, John Mortenson. Our projects theme was developing tools, and on our ProductivityFrontend branch, our team's project was...
 <br>
@@ -261,17 +268,17 @@ The most important block of code is the handleTextMessage() method, as it iterat
 | **Assignment**                | **Points**    | **Grade** | **Evidence** |
 |-------------------------------|---------------|-----------|--------------|
 | Sprint 1-3 Review Ticket      | 3             |           |  [Sprint 1 Review Ticket](https://spooketti.github.io/studentCSA//2024/09/08/checklistSprintOne_IPYNB_2_.html) <br> [Sprint 2 Review Ticket](https://github.com/spooketti/studentCSA/issues/5) <br> [Sprint 3 Review Ticket](https://spooketti.github.io/studentCSA//2024/11/18/Trimester2-Start.html) <br> [Sprint 1 Bonus](https://github.com/spooketti/studentCSA/issues/2)          |
-| Sprint 3 Team Issue(s)/Plan   | 2             |        |         [To Do List](https://github.com/CSA-Coders-2025/Planning-Repository-Issue-House-/issues/16) <br> [Team Plan](https://github.com/JITS-K/JITS_Frontend_Project1/issues/1)        |
-| Beginning-2-End Contribution  | 2             |           |              |
-| N@tM Team Presentation        | 2             |           |              |
-| Live Review Indi Demo         | 1             |           |              |
+| Sprint 3 Team Issue(s)/Plan   | 2             |        |          [Team Plan](https://github.com/JITS-K/JITS_Frontend_Project1/issues/1)        |
+| Beginning-2-End Contribution  | 2             |           | [Ideation](https://github.com/JITS-K/JITS_Frontend_Project1/issues/1) <br> [To Do List](https://github.com/CSA-Coders-2025/Planning-Repository-Issue-House-/issues/16) <br> ![Design 1]({{site.baseurl}}/images/post/2024-11-18/design1.png) <br> ![Work]({{site.baseurl}}/images/post/2024-11-18/contrib.png) <br>  ![Work]({{site.baseurl}}/images/post/2024-11-18/videophase.png)     |
+| N@tM Team Presentation        | 2             |           |     ![Team Present]({{site.baseurl}}/images/post/2024-11-18/feedback.png)         |
+| Live Review Indi Demo         | 1             |           |       See Above       |
 | **Total**                     | 10            |           |              |
 
 | **Skill**                  | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
-| Work Habits (Analytics)    | 1             |           |  ![analytics]({{site.baseurl}}/images/post/2024-11-18/analytics.png)          |
+| Work Habits (Analytics)    | 1             |           |  ![analytics]({{site.baseurl}}/images/post/2024-11-18/analytics.png) ![commit1]({{site.baseurl}}/images/post/2024-11-18/commit1.png) ![commit2]({{site.baseurl}}/images/post/2024-11-18/commit2.png) ![commit3]({{site.baseurl}}/images/post/2024-11-18/commit3.png)     |
 | Evidence of Role in Team   | 1             |           |   ![progress in group chat]({{site.baseurl}}/images/post/2024-11-18/teamwork1.png) ![more progress]({{site.baseurl}}/images/post/2024-11-18/teamwork2.png)       | 
-| Function / Purpose Design  | 1             |           |              | 
+| Function / Purpose Design  | 1             |           |      ![function]({{site.baseurl}}/images/post/2024-11-18/function.png)         | 
 | Live Review                | 2             |           |              | 
 | **Total**                  | 5             |           |              |
 
