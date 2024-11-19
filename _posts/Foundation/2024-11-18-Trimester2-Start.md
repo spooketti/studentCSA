@@ -282,4 +282,96 @@ The most important block of code is the handleTextMessage() method, as it iterat
 | Live Review                | 2             |           |              | 
 | **Total**                  | 5             |           |              |
 
+# Collegeboard Practice MCQ 
+Score: 19/40
+
+So it's not the greatest score for practice, so going forward I'll focus on getting things right more than getting things done...
+
+## Corrections
+Q40
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/002673dc81c296f0f64de524352d075f/original.jpg">
+C) The recursive call isn't printed before the whatsItDo(temp), so it is going forward printing lines
+
+Q39
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/fda54504a6670d2190b0cfd89d3fcfaa/original.jpg">
+D) recur(9) is 18, the progression should have continued with recur(18) so the correct progression should have been recur(recur(27/3)) -> recur(18) -> recur(recur(6)) -> recur(12) -> recur(recur(4)) -> recur(8) -> 16
+
+Q38
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/501a69578482846725a76c54ab918279/original.jpg">
+A) X is not a required variable if y is more than 10000, so A (y > 10000 | | x > 1000) && (y > 10000 | | x < 1500) is the right answer as it keeps x in the range with &&
+
+Q37
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/5c09d75c258b4b3dabba2a8c33d3b1a8/original.jpg">
+D) x < 6 and x < 7 will work as previously I only chose x < 6; however, x < 7 will still terminate the loop at the same time
+
+Q36
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/1f3e0982f6c40e801d4d15a8316817ac/original.jpg">
+C) 8, 9, and 11 will work because 8 % 2 ==0, 9 %2 != 0 and 9 is not greater than 9, so the else case will fire, and 11 > 9
+
+Q35
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/5c4fd296b6cab7c9d7bf8967009969e8/original.jpg">
+E) 4752 as for loop 1 result is 4, num is 257, loop 2 result 47 num 25, loop 3 result 475 num 2, loop 4 result 4752 num 0
+
+Q34
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/5e0d6aca01edaef3dfc91e8ae330af40/original.jpg">
+B) II only being center = new Point(a,b); radius = r; because I will not assign the center and center itself is private
+
+Q33
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/0e16d20e2490230415bc3e38e043d265/original.jpg">
+E) Infinite loop as k will always be < 4 because it never increases
+
+Q30 <img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/322e49e63a36e812d997ab61f4ccb08a/original.jpg">
+C) ilercom as it is getting the 5th value to the end, before chaining the beginning to the start to the 4th value to the end
+
+Q26
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/da84118573a4b4480f15c55178b884f4/original.jpg">
+
+A)<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/dd0bc407ea8e4ef1b8a4f1564e5bd79d/original.jpg">
+This will work because it is iterating through each value in the array and seeing if the number % 2 is not equal to 0, meaning it has to be odd
+
+Q25
+D) I and II as solution III does not prove it can fit as surface area and volume are not enough
+
+Q24
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/647dbaa080e6d83f57b035e56deb56fd/original.jpg">
+D) 7 as the array contains { {1, 4, 7}, {2, 5, 8}, {3, 6, 9} }, and the 3rd value in the first column is 7
+
+Q23
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/ed033b294ad1d99eb6ae4e37a1fe3cc9/original.jpg">
+B) my initial mistake was I thought words that started with b were sent to the end as opposed to being inserted at animals.size() - k
+
+Q22
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/c79fa4afed4476a54d785b4abdd5f148/original.jpg">
+B) Line 5 will compile because it inherits the superclass's toString
+
+Q21
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/c3745b0da0c90d3315a0931604c1efc2/original.jpg">
+D)Math.abs (row [num] - val) < minDiff correctly completes the code as my answer relies on it being a for loop as opposed to a for each loop
+
+Q20 <img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/10073d3e9af8bd104345e2b96674583b/original.jpg">
+E) The numbers are flipped as j increases and k decreases
+
+Q18
+Assume that myList is an ArrayList that has been correctly constructed and populated with objects. Which of the following expressions produces a valid random index for myList?
+Responses
+B) (int) ( Math.random () * myList.size () ) is the correct answer as my original answer decreased the range by 1
+
+Q16
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/7fcd53f95a149d73a904e9a98c286dc7/original.jpg">
+D) My original answer once again decreases the range by 1
+
+Q12
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/375a6484b5197c53df8f05c3ec50c9b6/original.jpg">
+C) optr is the output as it gets every 2nd value and chains them together
+
+Q11
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/a6bf889b2fe003ec68b291c4bf3d7b3a/original.jpg">
+B) The answer if(last < 0){return -1} works as if it is <= 0 then it will return -1 instead of 0>
+
+Q10
+<img src="https://assets.learnosity.com/organisations/537/media.academicmerit.com/a6bf889b2fe003ec68b291c4bf3d7b3a/original.jpg">
+B) II works as it is fine if the element only contains one element, but II will eventually cause an out of bounds exception
+
+
+
 
