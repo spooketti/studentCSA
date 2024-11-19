@@ -260,8 +260,8 @@ The most important block of code is the handleTextMessage() method, as it iterat
 
 | **Assignment**                | **Points**    | **Grade** | **Evidence** |
 |-------------------------------|---------------|-----------|--------------|
-| Sprint 1-3 Review Ticket      | 3             |           |              |
-| Sprint 3 Team Issue(s)/Plan   | 2             |           |              |
+| Sprint 1-3 Review Ticket      | 3             |           |  [Sprint 1 Review Ticket](https://spooketti.github.io/studentCSA//2024/09/08/checklistSprintOne_IPYNB_2_.html) <br> [Sprint 2 Review Ticket](https://github.com/spooketti/studentCSA/issues/5) <br> [Sprint 3 Review Ticket](https://spooketti.github.io/studentCSA//2024/11/18/Trimester2-Start.html) <br> [Sprint 1 Bonus](https://github.com/spooketti/studentCSA/issues/2)          |
+| Sprint 3 Team Issue(s)/Plan   | 2             |        |         [To Do List](https://github.com/CSA-Coders-2025/Planning-Repository-Issue-House-/issues/16) <br> [Team Plan](https://github.com/JITS-K/JITS_Frontend_Project1/issues/1)        |
 | Beginning-2-End Contribution  | 2             |           |              |
 | N@tM Team Presentation        | 2             |           |              |
 | Live Review Indi Demo         | 1             |           |              |
@@ -270,7 +270,7 @@ The most important block of code is the handleTextMessage() method, as it iterat
 | **Skill**                  | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
 | Work Habits (Analytics)    | 1             |           |  ![analytics]({{site.baseurl}}/images/post/2024-11-18/analytics.png)          |
-| Evidence of Role in Team   | 1             |           |              | 
+| Evidence of Role in Team   | 1             |           |   ![progress in group chat]({{site.baseurl}}/images/post/2024-11-18/teamwork1.png) ![more progress]({{site.baseurl}}/images/post/2024-11-18/teamwork2.png)       | 
 | Function / Purpose Design  | 1             |           |              | 
 | Live Review                | 2             |           |              | 
 | **Total**                  | 5             |           |              |
