@@ -204,6 +204,7 @@ Sprint3:
 Sprint4:
   title: Warm-up Data Analysis and Sort Project
   description: Trimester 2 will begin with a Mini-project on Sorting and Analysis. Focusing on frontend JavaScript Visualization; Backend Java Sorting, Inheritance, and Polymorphic behavior.
+  illustration: *frq_types
   start: 13
   end: 16
 Sprint5:
