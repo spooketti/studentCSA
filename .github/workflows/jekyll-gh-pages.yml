@@ -29,6 +29,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Install dependencies
+        run: |
+          pip install nbconvert
+          # Add any other necessary package installations here
+      - name: Execute conversion script
+        run: python scripts/convert_notebooks.py
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
